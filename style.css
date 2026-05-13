@@ -31,12 +31,18 @@ header p a{
     padding: 0px 8px;
     
 }
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
 
 
 .section-box{
     display: flex;
     flex-direction: column;
-    box-shadow: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     width: 1000px;
     height: 650px;
 background-color: white;
@@ -44,6 +50,7 @@ margin: 15px 15px;
     
     
 }
+
 .section-box img{
     
     width: 100%;
@@ -51,12 +58,14 @@ margin: 15px 15px;
     display: block;
     object-fit: cover; 
 }
+
 .section-box h2{
     font-size: 30px;
     padding: 15px;
     font-family: sans-serif;
-    
 }
+     
+
 .tit-des{
 font-size: 24px;
 font-family: sans-serif;
@@ -69,6 +78,7 @@ padding-left: 15px;
 .description{
     padding: 40px;
     font-size: 20px;
+    padding-left: 15px;
 }
 .More{
     display: flex;
@@ -80,6 +90,9 @@ padding: 15px;
 margin: 10px 30px;
 font-size: 20px;
 background-color: transparent;
+
+
+
 
 }
 .More p{
@@ -95,18 +108,63 @@ background-color: transparent;
     color: white;
     padding: 0 5px;
 }
+.More2{
+    display: flex;
+}
+ 
+.More2 p{
+    display: inline;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 630px;
+    margin-top: 25px;
+    margin-right: 5px;
+
+    
+
+}
+.More2 a{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 20px;
+    
+}
+
+
+
+/* aside section */
 aside{
     display: flex;
-    justify-self: right;
-    align-self: auto;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+ .side-box1 img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    
+    
 }
 .side-box1{
-    
+     top: 263px;
+    right: 0;
+    position: absolute;
     background-color: white;
     box-shadow: 15px;
-    width: 402px;
+    width: 430px;
     height: 500px;
     margin: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 .side-box1 h2{
     padding: 20px;
@@ -115,18 +173,130 @@ aside{
      padding: 20px;
     font-size: 20px;
 }
- .side-box1 img2{
-     width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    
+.side-box2{
+   top: 800px;
+    right: 0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+   
+    position: absolute;
+    background-color: white;
+    box-shadow: 15px;
+    width: 430px;
+    height: 440px;
+    margin: 20px;  
 }
+.heading{
+    background-color: rgb(204, 192, 177);
+    width: 100%;
+    height: 80px;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 30px ;
+    padding-left: 15px;
+    font-weight: 200px;
+
+
+}
+.post{
+     background-color: transparent;
+    width: 100%;
+    height: 90px;
+    border-bottom: 0.5px solid rgb(204, 184, 184);
+    
+
+
+}
+
+.post img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+    .post p{
+
+font-size: 18px;
+font-family: sans-serif;
+    padding-top: 20px ;
+    margin-left: 90px;
+}
+.post a{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(102, 108, 114);
+}
+.side-box3{
+     top: 1280px;
+    right: 0;
+   
+    position: absolute;
+    background-color: white;
+    box-shadow: 15px;
+    width: 430px;
+    height: 320px;
+    margin: 20px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+
+}
+.heading2{
+     background-color: rgb(204, 192, 177);
+    width: 100%;
+    height: 80px;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 30px ;
+    padding-left: 15px;
+    font-weight: 200px;
+
+}
+.tags-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px;
+    
+    
+
+} 
+.tags-list a{
+    background-color: black;
+    color: white;
+   padding: 5px;
+    text-align: center;
+   text-size-adjust: 100%;
+font-size: 15px;
+   font-family: sans-serif;
+   margin-top: 15px;
+   margin-left: 15px;
+
+    
+
+}
+.tags-list p{
+    background-color: rgb(217, 217, 235);
+    color:black;
+   margin-top: 15px;
+   margin-left: 3px;
+   font-size: 15px;
+   font-family: sans-serif;
+   text-align: center;
+   text-size-adjust: 100%;
+   box-sizing: border-box;
+   padding: 7px;
+
+   
+
+
+
+}
+  
 footer{
     height: 150px;
     width: 100%;
     box-shadow: 15px;
     background-color:rgb(136, 130, 130);
+    margin-top: 80px;
 
 }
 .btns{
